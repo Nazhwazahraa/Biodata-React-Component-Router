@@ -9,10 +9,10 @@ import {
 import HeaderComponen from './components/header'
 import FooterComponen from './components/footer'
 
-import Home from './pages/Home'
-import About from './pages/About'
-import Documentation from './pages/Documentation'
-import Contact from './pages/Contact'
+import Home from './pages/home'
+import About from './pages/about'
+import Documentation from './pages/documentation'
+import Contact from './pages/contact'
 
 function App() {
   return (
