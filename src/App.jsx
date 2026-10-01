@@ -1,18 +1,17 @@
 import './App.css'
 
-import {
-  BrowserRouter,
+import { BrowserRouter,
   Routes,
   Route
 } from 'react-router-dom'
 
-import HeaderComponen from './components/header'
-import FooterComponen from './components/footer'
+import HeaderComponen from './components/Header'
+import FooterComponen from './components/Footer'
 
-import Home from './pages/home'
-import About from './pages/about'
-import Documentation from './pages/documentation'
-import Contact from './pages/contact'
+import Home from './pages/Home'
+import About from './pages/About'
+import Documentation from './pages/Documentation'
+import Contact from './pages/Contact'
 
 function App() {
   return (
