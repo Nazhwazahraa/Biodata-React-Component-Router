@@ -1,14 +1,20 @@
+import { Link } from 'react-router-dom'
+
 function HeaderComponen() {
   return (
     <nav className="navbar">
-      <div className="logo">♡ Profil Nazhwa</div>
+
+      <Link to="/" className="logo">
+        ♡ Profil Nazhwa
+      </Link>
 
       <div className="nav-links">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#documentation">Documentation</a>
-        <a href="#contact">Contact</a>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/documentation">Documentation</Link>
+        <Link to="/contact">Contact</Link>
       </div>
+
     </nav>
   )
 }
